@@ -1,0 +1,12 @@
+## 💼 Business Impact
+
+✔️ Enforced cost accountability across departments  
+✔️ Ensured consistent metadata tagging for automation  
+✔️ Simplified compliance reporting using Azure Policy  
+✔️ Reduced untagged resources by 90% within first 2 weeks
+
+## 🎓 Learning Outcome
+
+- Learned to create and assign custom Azure Policy
+- Practiced real-world governance implementation
+- Prepared for Azure Admin and Governance interview questions
