@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "displayName": "Require Department Tag",
+    "policyType": "Custom",
+    "mode": "Indexed",
+    "description": "Ensures that all resources have the tag 'Department'",
+    "parameters": {
+      "tagName": {
+        "type": "String",
+        "defaultValue": "Department"
+      }
+    },
+    "policyRule": {
+      "if": {
+        "field": "[concat('tags[', parameters('tagName'), ']')]",
+        "exists": "false"
+      },
+      "then": {
+        "effect": "deny"
+      }
+    }
+  }
+}
