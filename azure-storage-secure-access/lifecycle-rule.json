@@ -1,0 +1,25 @@
+{
+  "rules": [
+    {
+      "enabled": true,
+      "name": "move-cool-after-30days",
+      "type": "Lifecycle",
+      "definition": {
+        "filters": {
+          "blobTypes": ["blockBlob"],
+          "prefixMatch": ["project-data/"]
+        },
+        "actions": {
+          "baseBlob": {
+            "tierToCool": {
+              "daysAfterModificationGreaterThan": 30
+            },
+            "delete": {
+              "daysAfterModificationGreaterThan": 90
+            }
+          }
+        }
+      }
+    }
+  ]
+}
