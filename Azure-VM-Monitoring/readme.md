@@ -70,7 +70,4 @@ Ensure that all production VMs are:
 - Setting up alerts for preventive maintenance
 - Implementing secure remote access strategy using Bastion and JIT
 
----
-
-## 📁 GitHub Structure
 
