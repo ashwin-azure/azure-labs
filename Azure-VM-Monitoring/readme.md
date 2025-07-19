@@ -51,17 +51,6 @@ Ensure that all production VMs are:
 
 ---
 
-## 📷 Screenshots
-
-| Description         | Screenshot Example             |
-|---------------------|--------------------------------|
-| CPU Alert Config    | ![CPU Alert](./cpu-alert.png)  |
-| Activity Log Alert  | ![Log Alert](./log-alert.png)  |
-| JIT Access Enabled  | ![JIT](./jit-access.png)       |
-| Bastion Login       | ![Bastion](./bastion.png)      |
-
----
-
 ## ✅ Result
 - VM is protected from brute force or unmonitored access
 - Real-time alerts keep admin notified of performance and risk
